@@ -215,8 +215,7 @@
 
   <prerequisites>
     <maven>3.8.1</maven>
-  </prerequisites>
-         
+  </prerequisites>      
   <distributionManagement>
     <repository>
       <id>my-project</id>
