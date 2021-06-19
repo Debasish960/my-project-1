@@ -216,5 +216,14 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+  <distributionManagement>
+  <repository>
+    <id>my-project</id>
+    <url>http://13.235.89.161:8081/nexus/content/repositories/maven-host-release</url>
+  </repository>
+    <snapshotRepository>
+    <id>my-project</id>
+    <url>http://13.235.89.161:8081/nexus/content/repositories/maven-host-snapshot</url>
+  </snapshotRepository>
+</distributionManagement> 
 </project>
