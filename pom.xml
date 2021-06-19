@@ -214,9 +214,9 @@
   </scm>
 
   <prerequisites>
-    <maven>3.0.3</maven>
+    <maven>3.8.1</maven>
   </prerequisites>
-  
+         
   <distributionManagement>
     <repository>
       <id>my-project</id>
