@@ -168,7 +168,6 @@
       </configuration>
     </plugin>
   </plugins>
-
   <distributionManagement>
     <repository>
       <id>my-project</id>
