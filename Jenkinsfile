@@ -32,7 +32,7 @@ pipeline {
             steps {
                 sshagent(['Docker_Server_SSH']) {
                     sh 'ssh -o StrictHostKeyChecking=no ec2-user@172.31.17.123 docker rm -f project-container || true'
-                    sh 'ssh -o StrictHostKeyChecking=no ec2-user@172.31.17.123 docker run -d --name project-container -p 8000:8000 debasish7/my-project-img /bin/bash'
+                    sh 'ssh -o StrictHostKeyChecking=no ec2-user@172.31.17.123 docker run -it --name project-container -p 8080:8080 -d debasish7/my-project-img /bin/bash'
                 }
             }
         }
