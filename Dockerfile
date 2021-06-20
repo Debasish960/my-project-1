@@ -10,4 +10,4 @@ RUN cp -Rv /tmp/apache-tomcat-8.5.68/* /usr/local/tomcat/
 MAINTAINER "p.debasish046@gmail.com" 
 ADD */target/webapp.war /usr/local/tomcat/webapps
 EXPOSE 8080
-CMD /usr/local/tomcat/bin/catalina.sh run
+CMD /usr/local/tomcat/bin/catalina.sh start
