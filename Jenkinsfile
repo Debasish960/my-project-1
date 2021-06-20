@@ -6,7 +6,7 @@ pipeline {
             steps {
                 git "https://github.com/Debasish960/my-project-1.git"
                 sh "/opt/maven/apache-maven-3.8.1/bin/mvn clean compile"
-                sh "/opt/maven/apache-maven-3.8.1/bin/mvn sonar:sonar -Dsonar.projectKey=my-project-1 -Dsonar.host.url=http://65.1.127.246:9000 -Dsonar.login=baaed209d3a9a2828f7748988cca14d0dc55ceac"
+                sh "/opt/maven/apache-maven-3.8.1/bin/mvn sonar:sonar -Dsonar.projectKey=my-project-1 -Dsonar.host.url=http://65.2.116.192:9000 -Dsonar.login=baaed209d3a9a2828f7748988cca14d0dc55ceac"
             }
         }
         stage('package $ deploy artifact to NEXUS') {
