@@ -218,11 +218,11 @@
   <distributionManagement>
     <repository>
       <id>my-project</id>
-      <url>http://65.1.127.246:8081/nexus/content/repositories/maven-host-release</url>
+      <url>http://65.2.116.192:8081/nexus/content/repositories/maven-host-release</url>
     </repository>
     <snapshotRepository>
       <id>my-project</id>
-      <url>http://65.1.127.246:8081/nexus/content/repositories/maven-host-snapshot</url>
+      <url>http://65.2.116.192:8081/nexus/content/repositories/maven-host-snapshot</url>
     </snapshotRepository>
   </distributionManagement> 
 </project>
